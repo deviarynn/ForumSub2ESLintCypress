@@ -54,3 +54,4 @@ Output yang diharapkan: 0 errors, 0 warnings.
 - ✅ Halaman leaderboard
 - ✅ Register & login
 - ✅ Loading indicator
+# test branch protection
