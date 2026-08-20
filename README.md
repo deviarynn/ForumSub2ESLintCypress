@@ -46,7 +46,7 @@ npm run lint
 ```
 Output yang diharapkan: 0 errors, 0 warnings.
 
-## 📋 Fitur Aplikasi
+## Fitur Aplikasi
 - ✅ Daftar thread dengan filter kategori
 - ✅ Detail thread + komentar
 - ✅ Buat thread & komentar (perlu login)
