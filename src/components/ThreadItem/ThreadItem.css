@@ -1,0 +1,105 @@
+.thread-card {
+  display: flex;
+  gap: 14px;
+  background: var(--color-panel);
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-md);
+  padding: 20px 20px 18px 12px;
+  margin-bottom: 14px;
+  box-shadow: var(--shadow-card);
+}
+
+.thread-card__rail {
+  position: relative;
+  width: 10px;
+  flex-shrink: 0;
+}
+
+.thread-card__rail::before {
+  content: '';
+  position: absolute;
+  top: 4px;
+  bottom: -18px;
+  left: 4px;
+  width: 2px;
+  background: var(--color-thread-rail);
+}
+
+.thread-card:last-child .thread-card__rail::before { display: none; }
+
+.thread-card__node {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--color-coral);
+  border: 2px solid var(--color-panel);
+}
+
+.thread-card__body { flex: 1; min-width: 0; }
+
+.thread-card__meta {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  color: var(--color-muted);
+  margin-bottom: 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.thread-card__category { color: var(--color-teal-dark); font-weight: 700; }
+
+.thread-card__title {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--color-ink);
+  margin-bottom: 8px;
+}
+
+.thread-card__title:hover { color: var(--color-teal-dark); }
+
+.thread-card__excerpt {
+  color: var(--color-muted);
+  font-size: 14.5px;
+  line-height: 1.6;
+  margin: 0 0 16px;
+}
+
+.thread-card__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.thread-card__owner {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13.5px;
+  font-weight: 500;
+  color: var(--color-ink);
+}
+
+.thread-card__stats {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.thread-card__comments {
+  font-size: 13px;
+  color: var(--color-muted);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.thread-card__comments:hover { color: var(--color-teal-dark); }

@@ -1,0 +1,12 @@
+.comment-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.comment-list__empty {
+  text-align: center;
+  color: var(--color-muted);
+  padding: 24px 0;
+  font-size: 14px;
+}

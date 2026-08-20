@@ -1,0 +1,19 @@
+.home-page__intro {
+  margin-bottom: 24px;
+}
+
+.home-page__intro h1 {
+  font-size: 32px;
+  margin-bottom: 6px;
+}
+
+.home-page__intro p {
+  color: var(--color-muted);
+  margin: 0;
+}
+
+.home-page__error {
+  color: var(--color-danger);
+  text-align: center;
+  padding: 40px;
+}

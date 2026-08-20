@@ -1,0 +1,28 @@
+.comment-item {
+  display: flex;
+  gap: 12px;
+  padding: 16px 0;
+  border-bottom: 1px solid var(--color-line);
+  list-style: none;
+}
+
+.comment-item:last-child { border-bottom: none; }
+
+.comment-item__body { flex: 1; min-width: 0; }
+
+.comment-item__meta {
+  display: flex;
+  gap: 6px;
+  font-size: 12.5px;
+  color: var(--color-muted);
+  margin-bottom: 4px;
+}
+
+.comment-item__name { font-weight: 700; color: var(--color-ink); }
+
+.comment-item__content {
+  font-size: 14.5px;
+  line-height: 1.6;
+  margin: 0 0 10px;
+  white-space: pre-wrap;
+}

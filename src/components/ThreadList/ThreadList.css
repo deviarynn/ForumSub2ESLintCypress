@@ -1,0 +1,15 @@
+.thread-list__empty {
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--color-muted);
+  background: var(--color-panel);
+  border: 1px dashed var(--color-line);
+  border-radius: var(--radius-md);
+}
+
+.thread-list__empty p {
+  font-family: var(--font-display);
+  font-size: 18px;
+  color: var(--color-ink);
+  margin: 0 0 6px;
+}

@@ -1,0 +1,89 @@
+.site-header {
+  background: var(--color-panel);
+  border-bottom: 1px solid var(--color-line);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.site-header__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 64px;
+}
+
+.site-header__brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-display);
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--color-ink);
+}
+
+.site-header__mark {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--color-coral);
+  box-shadow: 8px 0 0 -3px var(--color-teal);
+}
+
+.site-header__nav {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.site-header__nav a:not(.btn) {
+  text-decoration: none;
+  color: var(--color-muted);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.site-header__nav a:not(.btn):hover { color: var(--color-ink); }
+
+.site-header__user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Shared button styles used across pages/components */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border: none;
+  border-radius: var(--radius-sm);
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform 0.08s ease, background-color 0.15s ease;
+}
+
+.btn:active { transform: translateY(1px); }
+
+.btn--primary {
+  background: var(--color-teal);
+  color: #fff;
+}
+
+.btn--primary:hover { background: var(--color-teal-dark); }
+
+.btn--ghost {
+  background: transparent;
+  color: var(--color-ink);
+  border: 1px solid var(--color-line);
+}
+
+.btn--ghost:hover { background: var(--color-paper); }
+
+.btn--sm { padding: 8px 14px; font-size: 14px; }
+.btn--md { padding: 11px 20px; font-size: 15px; }
+.btn--block { width: 100%; }
+.btn:disabled { opacity: 0.6; cursor: not-allowed; }
