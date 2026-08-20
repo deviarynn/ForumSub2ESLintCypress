@@ -37,7 +37,7 @@ const initialState = {
 describe('authSlice reducer', () => {
   it('1. harus mengembalikan initial state yang benar', () => {
     const state = authReducer(undefined, { type: '@@INIT' });
-    expect(state).toEqual(initialState);
+    expect(state).toEqual({ wrong: 'state' });
   });
 
   it('2. loginUser.pending harus set status loading dan error null', () => {

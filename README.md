@@ -3,7 +3,7 @@
 Aplikasi forum diskusi berbasis React + Redux yang dibangun untuk submission Dicoding.
 
 ## 🚀 Demo
-**URL Vercel:** _(isi setelah deploy)_
+**URL Vercel:** _https://forum-sub2-es-lint-cypress.vercel.app/_
 
 ## 🛠️ Tech Stack
 - React 18 + Vite
@@ -15,14 +15,14 @@ Aplikasi forum diskusi berbasis React + Redux yang dibangun untuk submission Dic
 - GitHub Actions (CI)
 - Vercel (CD)
 
-## ▶️ Menjalankan Aplikasi
+## Menjalankan Aplikasi
 
 ```bash
 npm install
 npm run dev
 ```
 
-## 🧪 Menjalankan Test
+## Menjalankan Test
 
 ### Unit & Integration Test
 ```bash
@@ -40,7 +40,7 @@ npm run e2e:open    # mode GUI (lebih mudah untuk debug)
 npm run e2e         # mode headless (untuk CI)
 ```
 
-## 🔍 Lint Check
+## Lint Check
 ```bash
 npm run lint
 ```
