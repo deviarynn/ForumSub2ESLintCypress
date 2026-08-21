@@ -9,7 +9,7 @@ export default defineConfig({
     screenshotOnRunFailure: false,
   },
   env: {
-    TEST_EMAIL: 'deviaryani310305@gmail.com',
-    TEST_PASSWORD: 'akunpnc3135',
+    TEST_EMAIL: 'deviaryn3@gmail.com',
+    TEST_PASSWORD: 'akuntest123',
   },
 });

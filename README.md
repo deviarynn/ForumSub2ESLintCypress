@@ -54,3 +54,7 @@ Output yang diharapkan: 0 errors, 0 warnings.
 - ✅ Halaman leaderboard
 - ✅ Register & login
 - ✅ Loading indicator
+
+## Node Version
+Aplikasi ini dikembangkan menggunakan Node.js v22.15.1
+Jalankan dengan Node.js v22+
